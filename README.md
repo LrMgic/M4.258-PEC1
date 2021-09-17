@@ -1,0 +1,3 @@
+- Login UOC 
+- Nombre y apellidos del alumno: Gerard Vidal Gonzalez
+- Breve descripción de lo realizado en esta PEC, dificultades, mejoras realizadas, si hay que tener algo en cuenta a la hora de corregir/ejecutar la practica o cualquier aspecto que queráis destacar: De momento no
