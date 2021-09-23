@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&display=swap');
+
+:root {
+    --success-color: rgb(0, 204, 0);
+    --error-color: rgb(255, 0, 0);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'koh Santepheap';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px black;
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    color: dimgray;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid rgba(168, 168, 168, 0.5);
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: dimgray;
+}
+
+.form-control.success input {
+    border-color: var(--success-color);
+}
+
+.form-control.error input {
+    border-color: var(--error-color);
+}
+
+.form-control small {
+    color: var(--error-color);
+    position: absolute;
+    border: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form button {
+    cursor: pointer;
+    background-color: rgba(100, 148, 237, 0.726);
+    border: rgb(0, 89, 255);
+    border-radius: 4px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+.form button:hover {
+    background-color: rgba(0, 89, 255, 0.726);
+    box-shadow: 0 2px 10px black;
+}
+
+.form button:active {
+    background-color: gray;
+}

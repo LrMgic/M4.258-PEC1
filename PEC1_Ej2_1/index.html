@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PEC 1 Ej2.1</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Formulario de registro</h2>
+            <div class="form-control">
+                <label for="username">Nombre y Apellidos</label>
+                <input type="text" id="username" placeholder="Introduzca su Nombre y Apellidos">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Cuantos años tienes?</label>
+                <input type="number" id="edad" min="0" max="999">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Correo Electronico</label>
+                <input type="text" id="email" placeholder="Introduzca su Correo electronico">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">URL Personal</label>
+                <input type="text" id="urlpersonal" placeholder="Introduzca su página personal">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="Deve contener enre 4 y 6 dijitos">
+                <small>Error message</small>
+            </div>
+                        <div class="form-control">
+                <label for="password2">Repita la conraseña</label>
+                <input type="password" id="password2" placeholder="Introduzca de nuevo la contraseña">
+                <small>Error message</small>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
