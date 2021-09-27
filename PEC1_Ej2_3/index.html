@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gerard Vidal Gonzalez">
+    <meta name="description" content="M4.254 - PEC 1 - Ej2.3">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva asientos cine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="movie-container">
+        <label>Escoje la Sala:</label>
+        <select id="movie">
+            <option value="7">Sala 1: Dune</option>
+            <option value="9">Sala 2: Dune (DOLBY ATMOS)</option>
+            <option value="7">Sala 3: Dune (VOS)</option>
+            <option value="7">Sala 4: FREEGUY</option>
+            <option value="9">Sala 5: FREEGUY (DOLBY ATMOS)</option>
+            <option value="12">Sala 6: FREEGUY (3D)</option>
+            <option value="7">Sala 7: Escape Rppm 2</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>N/A</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Seleccionada</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Ocupada</small>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+
+    <p class="text">
+        Has seleccionado <span id="count">0</span> asientos por el precio de <span id="total">0</span> <span id="moneda">€</span>
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
